@@ -37,6 +37,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    
 }
 ol, ul {
     list-style: none;
@@ -110,6 +111,8 @@ table {
     padding: 10px;
     width: 500px;
 }
+
+
 
 .busca__icone {
     cursor: pointer;
@@ -333,13 +336,15 @@ table {
 }
 
 .rodape {
-    background-color: #04244F;
+    background-color: #f705ae;
     width: 100%;
     padding: 1.5rem 3rem;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     color: #FFFFFF;
+    position: fixed;
+    bottom: 0;
 }
 
 .rodape__icones {
